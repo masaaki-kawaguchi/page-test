@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <script src="https://rawgit.com/pshihn/rough/master/dist/rough.min.js"></script>
+    </head>
+    <body>
+    <div class="wrapper">
+        <canvas id="test"></canvas>
+    </div>
+        <script>
+            let roughCanvas = rough.canvas(document.getElementById('test'));
+            roughCanvas.rectangle(10, 10, 100, 100,{ fill: 'red', roughness: 5.5});
+        </script>
+    </body>
+</html>
